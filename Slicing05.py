@@ -6,5 +6,7 @@ def main(s,n):
         n(int): parameter
     Returns:
         str: answer
-    """
-    return
+    """ 
+    return s[n:]
+print(main("codeschooluz", -3))
+print(main("positive", -1))
